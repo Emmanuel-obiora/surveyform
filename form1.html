@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible"content="IE=edge">
+        <meta name="viewport"content="width=device-width, initial-scale=1.0">
+        <title>mirocles klothing villa survey form </title>
+               
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>MIROCLES KLOTHING VILLA</h1>
+        <h2 width="10px" length="50px"><b>Customer Satisfaction Survey</b></h2>
+        <form action="/action_page.php" id="form1"></form>>
+        <div style="background-color:white" colspan="20px" rowspan="30px">
+            <p1><b>Have you made a clothe from us?</b>
+            <label><input type="radio" name="have you made a clothe from us?" required>YES</label>
+            <label><input type="radio" name="have you made a clothe from us?">NO</label>
+        </p1>
+    </div style="background-color:yellow" colspan="40px" rowspan="50px"><br>
+             <p1><b>Overall, how satisfied or dissatisfied are you with our wears?</b><br>
+                <select id="percentage" name="percentage" style="width:500px; height:40px;" required>
+                    <option value="20%">0% - 19.9%</option>
+                  <option value="40%" >20% - 39.9%</option>
+                  <option value="60%">40% - 59.9%</option>
+                  <option value="80%">60% - 79.9%</option>
+                  <option value="100%">80% - 100%</option>
+                </select ><br>
+                </p1>
+                <div colspan="50px" rowspan="40px"><br>
+                     <p2><b> Which of the following words would  you use to describe our wears? select all that applies.</b></p2><br>
+                        <label for="Reliable" style="color:green">Reliable</label>
+                        <input type="checkbox" id="reliable" name="Reliable" value="reliable">
+                        <label for="Useful" style="color:green">Useful</label>
+                        <input type="checkbox" id="useful" name="useful" value="useful">
+                        <label for="good value" style="color:green">Good value</label>
+                        <input type="checkbox" id="good value" name="good value" value="good value">
+                        <label for="overpriced" style="color:green">Overpriced</label>
+                        <input type="checkbox" id="overpriced" name="overpriced" value="overpriced"><br> 
+                        
+                </p2> <br>                     
+                       </div> 
+                <div colspan="40px" rowspan="40px">
+                    <fieldset style="border-color:green" required>
+                    <legend ><b>Product Satisfaction</b></legend>
+                    <textarea name="product satisfaction"placeholder="type your comment here" rows="20"cols="80">
+                    </textarea>
+                    </fieldset>
+                </div><br>
+                <input type="submit" value="Submit">
+            </form> 
+                  
+    </body>
+</html>
